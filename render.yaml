@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: grad-gallery
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python outputs/grad_gallery_booking_server.py"
+    envVars:
+      - key: GRAD_GALLERY_ADMIN_PASSWORD
+        sync: false

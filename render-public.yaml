@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: grad-gallery
+    env: python
+    buildCommand: ""
+    startCommand: "python outputs/grad_gallery_public.py"
+    autoDeploy: true

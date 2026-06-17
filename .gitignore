@@ -1,0 +1,13 @@
+# Local database and exports
+outputs/*.sqlite
+outputs/*-export.csv
+
+# Python cache
+__pycache__/
+outputs/__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
